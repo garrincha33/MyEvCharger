@@ -10,24 +10,44 @@
 		82AF71D7298E759B0028DDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71D6298E759B0028DDCF /* AppDelegate.swift */; };
 		82AF71D9298E759B0028DDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71D8298E759B0028DDCF /* SceneDelegate.swift */; };
 		82AF71DB298E759B0028DDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71DA298E759B0028DDCF /* ViewController.swift */; };
-		82AF71DE298E759B0028DDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AF71DC298E759B0028DDCF /* Main.storyboard */; };
 		82AF71E0298E759D0028DDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AF71DF298E759D0028DDCF /* Assets.xcassets */; };
 		82AF71E3298E759D0028DDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AF71E1298E759D0028DDCF /* LaunchScreen.storyboard */; };
+		82AF71F1298E76120028DDCF /* MyEVChargerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */; };
+		82AF71F8298E76780028DDCF /* RewardSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71F7298E76780028DDCF /* RewardSystemTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AF71F2298E76120028DDCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AF71CB298E759B0028DDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AF71D2298E759B0028DDCF;
+			remoteInfo = MyEVCharger;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		82AF71D3298E759B0028DDCF /* MyEVCharger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEVCharger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AF71D6298E759B0028DDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AF71D8298E759B0028DDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82AF71DA298E759B0028DDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82AF71DD298E759B0028DDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82AF71DF298E759D0028DDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AF71E2298E759D0028DDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AF71E4298E759D0028DDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AF71EE298E76120028DDCF /* MyEVChargerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEVChargerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEVChargerTests.swift; sourceTree = "<group>"; };
+		82AF71F7298E76780028DDCF /* RewardSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82AF71D0298E759B0028DDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF71EB298E76120028DDCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				82AF71D5298E759B0028DDCF /* MyEVCharger */,
+				82AF71EF298E76120028DDCF /* MyEVChargerTests */,
 				82AF71D4298E759B0028DDCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				82AF71D3298E759B0028DDCF /* MyEVCharger.app */,
+				82AF71EE298E76120028DDCF /* MyEVChargerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +81,20 @@
 				82AF71D6298E759B0028DDCF /* AppDelegate.swift */,
 				82AF71D8298E759B0028DDCF /* SceneDelegate.swift */,
 				82AF71DA298E759B0028DDCF /* ViewController.swift */,
-				82AF71DC298E759B0028DDCF /* Main.storyboard */,
 				82AF71DF298E759D0028DDCF /* Assets.xcassets */,
 				82AF71E1298E759D0028DDCF /* LaunchScreen.storyboard */,
 				82AF71E4298E759D0028DDCF /* Info.plist */,
 			);
 			path = MyEVCharger;
+			sourceTree = "<group>";
+		};
+		82AF71EF298E76120028DDCF /* MyEVChargerTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */,
+				82AF71F7298E76780028DDCF /* RewardSystemTests.swift */,
+			);
+			path = MyEVChargerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +117,24 @@
 			productReference = 82AF71D3298E759B0028DDCF /* MyEVCharger.app */;
 			productType = "com.apple.product-type.application";
 		};
+		82AF71ED298E76120028DDCF /* MyEVChargerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AF71F4298E76120028DDCF /* Build configuration list for PBXNativeTarget "MyEVChargerTests" */;
+			buildPhases = (
+				82AF71EA298E76120028DDCF /* Sources */,
+				82AF71EB298E76120028DDCF /* Frameworks */,
+				82AF71EC298E76120028DDCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AF71F3298E76120028DDCF /* PBXTargetDependency */,
+			);
+			name = MyEVChargerTests;
+			productName = MyEVChargerTests;
+			productReference = 82AF71EE298E76120028DDCF /* MyEVChargerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +147,10 @@
 				TargetAttributes = {
 					82AF71D2298E759B0028DDCF = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					82AF71ED298E76120028DDCF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 82AF71D2298E759B0028DDCF;
 					};
 				};
 			};
@@ -116,6 +168,7 @@
 			projectRoot = "";
 			targets = (
 				82AF71D2298E759B0028DDCF /* MyEVCharger */,
+				82AF71ED298E76120028DDCF /* MyEVChargerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +180,13 @@
 			files = (
 				82AF71E3298E759D0028DDCF /* LaunchScreen.storyboard in Resources */,
 				82AF71E0298E759D0028DDCF /* Assets.xcassets in Resources */,
-				82AF71DE298E759B0028DDCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF71EC298E76120028DDCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,17 +203,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82AF71EA298E76120028DDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF71F1298E76120028DDCF /* MyEVChargerTests.swift in Sources */,
+				82AF71F8298E76780028DDCF /* RewardSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		82AF71DC298E759B0028DDCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82AF71DD298E759B0028DDCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		82AF71F3298E76120028DDCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AF71D2298E759B0028DDCF /* MyEVCharger */;
+			targetProxy = 82AF71F2298E76120028DDCF /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		82AF71E1298E759D0028DDCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +360,6 @@
 				INFOPLIST_FILE = MyEVCharger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +387,6 @@
 				INFOPLIST_FILE = MyEVCharger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +399,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82AF71F5298E76120028DDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMQAGMF379;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IssapTechnologies.MyEVChargerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyEVCharger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyEVCharger";
+			};
+			name = Debug;
+		};
+		82AF71F6298E76120028DDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMQAGMF379;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IssapTechnologies.MyEVChargerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyEVCharger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyEVCharger";
 			};
 			name = Release;
 		};
@@ -353,6 +455,15 @@
 			buildConfigurations = (
 				82AF71E8298E759D0028DDCF /* Debug */,
 				82AF71E9298E759D0028DDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AF71F4298E76120028DDCF /* Build configuration list for PBXNativeTarget "MyEVChargerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF71F5298E76120028DDCF /* Debug */,
+				82AF71F6298E76120028DDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
