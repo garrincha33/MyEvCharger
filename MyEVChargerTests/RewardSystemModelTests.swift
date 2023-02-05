@@ -13,10 +13,7 @@ import XCTest
 class RewardSystemModelTests: XCTestCase {
 
     func testInitialValues() {
-        // Given
         let model = RewardSystemModel()
-
-        // Then
         XCTAssert(model.points == 0, "Points should be initialized to 0")
         XCTAssert(model.checkInData.count == 0, "Check-in data should be empty")
     }
