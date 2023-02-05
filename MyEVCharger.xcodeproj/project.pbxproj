@@ -14,6 +14,10 @@
 		82AF71E3298E759D0028DDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AF71E1298E759D0028DDCF /* LaunchScreen.storyboard */; };
 		82AF71F1298E76120028DDCF /* MyEVChargerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */; };
 		82AF71F8298E76780028DDCF /* RewardSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71F7298E76780028DDCF /* RewardSystemTests.swift */; };
+		82AF71FB298E77E10028DDCF /* RewardSystemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71FA298E77E10028DDCF /* RewardSystemModel.swift */; };
+		82AF71FD298E7BF20028DDCF /* RewardSystemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71FC298E7BF20028DDCF /* RewardSystemViewModelTests.swift */; };
+		82AF7200298E7C3E0028DDCF /* RewardSystemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF71FF298E7C3E0028DDCF /* RewardSystemViewModel.swift */; };
+		82AF7202298E7E240028DDCF /* RewardSystemModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF7201298E7E240028DDCF /* RewardSystemModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		82AF71EE298E76120028DDCF /* MyEVChargerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEVChargerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEVChargerTests.swift; sourceTree = "<group>"; };
 		82AF71F7298E76780028DDCF /* RewardSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemTests.swift; sourceTree = "<group>"; };
+		82AF71FA298E77E10028DDCF /* RewardSystemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemModel.swift; sourceTree = "<group>"; };
+		82AF71FC298E7BF20028DDCF /* RewardSystemViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemViewModelTests.swift; sourceTree = "<group>"; };
+		82AF71FF298E7C3E0028DDCF /* RewardSystemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemViewModel.swift; sourceTree = "<group>"; };
+		82AF7201298E7E240028DDCF /* RewardSystemModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,8 @@
 		82AF71D5298E759B0028DDCF /* MyEVCharger */ = {
 			isa = PBXGroup;
 			children = (
+				82AF71FE298E7C260028DDCF /* RewardSystemViewModel */,
+				82AF71F9298E77D10028DDCF /* Model */,
 				82AF71D6298E759B0028DDCF /* AppDelegate.swift */,
 				82AF71D8298E759B0028DDCF /* SceneDelegate.swift */,
 				82AF71DA298E759B0028DDCF /* ViewController.swift */,
@@ -93,8 +103,26 @@
 			children = (
 				82AF71F0298E76120028DDCF /* MyEVChargerTests.swift */,
 				82AF71F7298E76780028DDCF /* RewardSystemTests.swift */,
+				82AF71FC298E7BF20028DDCF /* RewardSystemViewModelTests.swift */,
+				82AF7201298E7E240028DDCF /* RewardSystemModelTests.swift */,
 			);
 			path = MyEVChargerTests;
+			sourceTree = "<group>";
+		};
+		82AF71F9298E77D10028DDCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82AF71FA298E77E10028DDCF /* RewardSystemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82AF71FE298E7C260028DDCF /* RewardSystemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82AF71FF298E7C3E0028DDCF /* RewardSystemViewModel.swift */,
+			);
+			path = RewardSystemViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AF71DB298E759B0028DDCF /* ViewController.swift in Sources */,
+				82AF71FB298E77E10028DDCF /* RewardSystemModel.swift in Sources */,
 				82AF71D7298E759B0028DDCF /* AppDelegate.swift in Sources */,
 				82AF71D9298E759B0028DDCF /* SceneDelegate.swift in Sources */,
+				82AF7200298E7C3E0028DDCF /* RewardSystemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AF71FD298E7BF20028DDCF /* RewardSystemViewModelTests.swift in Sources */,
+				82AF7202298E7E240028DDCF /* RewardSystemModelTests.swift in Sources */,
 				82AF71F1298E76120028DDCF /* MyEVChargerTests.swift in Sources */,
 				82AF71F8298E76780028DDCF /* RewardSystemTests.swift in Sources */,
 			);
