@@ -20,6 +20,9 @@
 		82AF7202298E7E240028DDCF /* RewardSystemModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF7201298E7E240028DDCF /* RewardSystemModelTests.swift */; };
 		82AF722C299041230028DDCF /* EVChargePointsNearbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF722B299041230028DDCF /* EVChargePointsNearbyTests.swift */; };
 		82AF722F299041650028DDCF /* ChargePointSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF722E299041650028DDCF /* ChargePointSearch.swift */; };
+		82AF7231299044400028DDCF /* ChargePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF7230299044400028DDCF /* ChargePoint.swift */; };
+		82AF7233299044640028DDCF /* ChargePointLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF7232299044640028DDCF /* ChargePointLocation.swift */; };
+		82AF72372990473A0028DDCF /* ChargePointSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF72362990473A0028DDCF /* ChargePointSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		82AF7201298E7E240028DDCF /* RewardSystemModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSystemModelTests.swift; sourceTree = "<group>"; };
 		82AF722B299041230028DDCF /* EVChargePointsNearbyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVChargePointsNearbyTests.swift; sourceTree = "<group>"; };
 		82AF722E299041650028DDCF /* ChargePointSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePointSearch.swift; sourceTree = "<group>"; };
+		82AF7230299044400028DDCF /* ChargePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePoint.swift; sourceTree = "<group>"; };
+		82AF7232299044640028DDCF /* ChargePointLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePointLocation.swift; sourceTree = "<group>"; };
+		82AF72362990473A0028DDCF /* ChargePointSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePointSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +140,28 @@
 		82AF722D299041460028DDCF /* EVChargePointSearch */ = {
 			isa = PBXGroup;
 			children = (
-				82AF722E299041650028DDCF /* ChargePointSearch.swift */,
+				82AF7235299044920028DDCF /* ViewModel */,
+				82AF72342990448D0028DDCF /* Model */,
 			);
 			path = EVChargePointSearch;
+			sourceTree = "<group>";
+		};
+		82AF72342990448D0028DDCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82AF722E299041650028DDCF /* ChargePointSearch.swift */,
+				82AF7230299044400028DDCF /* ChargePoint.swift */,
+				82AF7232299044640028DDCF /* ChargePointLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82AF7235299044920028DDCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82AF72362990473A0028DDCF /* ChargePointSearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AF7231299044400028DDCF /* ChargePoint.swift in Sources */,
+				82AF72372990473A0028DDCF /* ChargePointSearchViewModel.swift in Sources */,
+				82AF7233299044640028DDCF /* ChargePointLocation.swift in Sources */,
 				82AF71DB298E759B0028DDCF /* ViewController.swift in Sources */,
 				82AF71FB298E77E10028DDCF /* RewardSystemModel.swift in Sources */,
 				82AF722F299041650028DDCF /* ChargePointSearch.swift in Sources */,

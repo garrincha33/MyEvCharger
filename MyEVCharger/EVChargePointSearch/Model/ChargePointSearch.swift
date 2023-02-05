@@ -23,27 +23,6 @@ struct ChargePointSearch {
         case fast
         case slow
     }
-    
-    struct Location {
-        let latitude: Double
-        let longitude: Double
-    }
-    
-    func search(location: Location) {
-        let chargePoints = [ChargePoint]()
-        
-        delegate?.didFindChargePoints(chargePoints)
-    }
-}
-
-struct ChargePoint {
-    let location: String
-    let type: String
-    
-    init(location: String, type: String) {
-        self.location = location
-        self.type = type
-    }
 }
 
 
